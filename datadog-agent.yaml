@@ -62,7 +62,7 @@ spec:
           periodSeconds: 5
       volumes:
         - hostPath:
-            path: /var/run/docker.sock
+            path: /var/vcap/data/sys/run/docker/docker.sock
           name: dockersocket
         - hostPath:
             path: /proc

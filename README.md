@@ -12,7 +12,7 @@
 
 ## Notes
 
-You will likely need to keep this in `datadog-agent.yaml`:
+You may not need this in `datadog-agent.yaml`:
 
 ```
 - name: DD_KUBELET_TLS_VERIFY
